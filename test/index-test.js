@@ -10,6 +10,6 @@ it('concatenates strings to greet a special guest in `greetSpecialGuest`', funct
   expect(greetSpecialGuest).toEqual(`Hello, ${specialGuest}!`)
 })
 
-it('define `conversation`', function() {
+it('define `greet`', function() {
   expect(conversation).toEqual(`Let's talk about ${topic}.`)
 })
