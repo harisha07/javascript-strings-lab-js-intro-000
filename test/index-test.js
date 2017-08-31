@@ -4,7 +4,7 @@ it('defines `greeting`', function() {
   expect(greeting).toEqual("Hello, everybody!")
 })
 it('defines `greet`', function() {
-  expect(greeting).toEqual("Hello")
+  expect(greet).toEqual("Hello")
 })
 it('concatenates strings to greet a special guest in `greetSpecialGuest`', function() {
   expect(greetSpecialGuest).toEqual(`Hello, ${specialGuest}!`)
